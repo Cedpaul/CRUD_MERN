@@ -55,6 +55,7 @@ app.post('/:id', (req, res) => {
       }
       else {
         todo.text = req.body.text;
+        todo.description = req.body.description;
         todo
           .save()
           .then((todo) => {
