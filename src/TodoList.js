@@ -21,6 +21,7 @@ export const TodoList = () => {
                 <thead>
                 <tr>
                     <th>Text</th>
+                    <th>Description</th>
                     <th>Action</th>
                 </tr>
                 </thead>
